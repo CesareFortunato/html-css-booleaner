@@ -1,0 +1,31 @@
+.banner {
+  height: 110px;
+  background-image: url("/imgs/pattern.png");
+  background-repeat: repeat-x;
+  background-position: top center;
+  background-size: 400px 215px;
+  overflow: hidden; 
+  background-color: #4ea0ff;
+}
+
+#booleaner {
+    color: #26abe5;
+}
+
+.datetime{
+    font-size: 12px;
+}
+
+.photocaption{
+    font-size: 12px;
+}
+
+.highlithed{
+    background-color: yellow;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse; 
+  text-align: left;
+}
