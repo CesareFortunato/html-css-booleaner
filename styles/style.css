@@ -2,7 +2,7 @@
   height: 110px;
   background-image: url("/imgs/pattern.png");
   background-repeat: repeat-x;
-  background-position: top center;
+  background-position: top left;
   background-size: 400px 215px;
   overflow: hidden; 
   background-color: #4ea0ff;
@@ -10,6 +10,10 @@
 
 #booleaner {
     color: #26abe5;
+}
+
+#headertitle{
+    color: white;
 }
 
 .datetime{
@@ -28,4 +32,27 @@ table{
   width: 100%;
   border-collapse: collapse; 
   text-align: left;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  background-color:#20a9e5;
+  font-weight: bold;
+  color: white;
+}
+
+.middlecolumn{
+    background-color: white;
+}
+
+.sidecolumn{
+    background-color: #b1e5f2;
+}
+
+.lastphoto{
+    height: 13%;
+    width: 13%;
 }
